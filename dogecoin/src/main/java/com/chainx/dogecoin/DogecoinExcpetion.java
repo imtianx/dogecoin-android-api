@@ -6,5 +6,6 @@ public class DogecoinExcpetion extends Exception {
         System.out.println("Dogecoin error function in Android: " + errJFun);
         System.out.println("Dogecoin error function in DLL: " + errCFun);
         System.out.println("Dogecoin dll error: " + error);
+        super(error);
     }
 }
